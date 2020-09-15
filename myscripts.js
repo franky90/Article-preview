@@ -18,7 +18,7 @@ function handleBubble() {
 
 function resizeFunction(){
     var bottomContainer = document.getElementById("hiddenContainer");
-    var oldShereIcon = document.getElementById("idImage");
+    var oldShereIcon = document.getElementById("hiddenAuthor");
     var w= window.outerWidth;
     if (w < 900){
         bottomContainer.style.display = "block";

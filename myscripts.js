@@ -15,3 +15,16 @@ function handleBubble() {
         y.style.backgroundColor = "hsl(210, 46%, 95%)";
     }
 }
+
+function resizeFunction(){
+    var bottomContainer = document.getElementById("hiddenContainer");
+    var oldShereIcon = document.getElementById("idImage");
+    var w= window.outerWidth;
+    if (w < 900){
+        bottomContainer.style.display = "block";
+        oldShereIcon.style.display = "none";
+    }else{
+        bottomContainer.style.display = "none";
+        oldShereIcon.style.display = "block";
+    }
+}
